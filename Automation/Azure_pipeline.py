@@ -16,6 +16,9 @@ except:
   
   
 # Use CTRL + / to comment out a block of code
+from azureml.core import Model
+from azureml.core.resource_configuration import ResourceConfiguration
+#https://docs.microsoft.com/en-us/azure/machine-learning/how-to-train-tensorflow
 
 # # upload the model file explicitly into artifacts
 # Register tensorflow model
